@@ -1,0 +1,21 @@
+{
+    "product_name": "ing916",
+    "type": "mini",
+    "version": "3.0",         
+    "ohos_version": "OpenHarmony 3.1",
+    "device_build_path": "device/board/ingchips/ing916",       
+    "device_company": "ingchips",
+    "board": "ing916",
+    "kernel_type": "liteos_m",
+    "kernel_version": "",
+    "subsystems": [
+        {
+            "subsystem": "kernel",
+            "components": [
+              { "component": "liteos_m" }
+            ]
+          }
+     ],
+    "product_adapter_dir": "//vendor/ingchips/ing9168xx",
+    "third_party_dir": "//device/soc/ingchips/sdk"
+}

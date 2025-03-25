@@ -1,0 +1,11 @@
+{
+  "parts": {
+    "product_ing916": {
+      "module_list": [
+        "//vendor/ingchips/ing9168xx:ing9168xx"
+      ]
+    }
+  },
+  "subsystem": "product_ing916"
+}
+

@@ -1,0 +1,91 @@
+{
+    "product_name": "ing9187xx_xts",
+    "type": "mini",
+    "version": "3.0",         
+    "ohos_version": "OpenHarmony 4.1.2",
+    "device_build_path": "device/board/ingchips/ing9187",       
+    "device_company": "ingchips",
+    "board": "ing9187",
+    "kernel_type": "liteos_m",
+    "kernel_version": "3.0.0",
+    "subsystems": [
+      {
+        "subsystem": "kernel",
+        "components": [
+          { "component": "liteos_m" }
+        ]
+      },
+      {
+        "subsystem": "iothardware",
+        "components": [
+          { "component": "peripheral", "features":[] }
+        ]
+      },
+      {
+        "subsystem": "hiviewdfx",
+        "components": [
+          { "component": "hilog_lite", "features":[] },
+          { "component": "hievent_lite", "features":[] }
+        ]
+      },
+      {
+        "subsystem": "systemabilitymgr",
+        "components": [
+          { "component": "samgr_lite", "features":[] }
+        ]
+      },
+      {
+        "subsystem": "startup",
+        "components": [
+          { "component": "bootstrap_lite", "features":[] },
+          {
+            "component": "init",
+            "features": [
+              "init_feature_begetctl_liteos = true"
+            ]
+          }
+        ]
+      },
+      {
+        "subsystem": "commonlibrary",
+        "components": [
+          { "component": "utils_lite", "features":[ "utils_lite_feature_file = true" ] }
+        ]
+      },    
+      {
+        "subsystem": "updater",
+        "components": [
+          { "component": "sys_installer_lite", "features":[] }
+        ]
+      },
+      {
+        "subsystem": "xts",
+        "components": [
+          { "component": "acts", "features":[] },
+          { "component": "tools", "features":[] }
+         ]
+      },
+      {
+        "subsystem": "security",
+        "components": [
+          { "component": "huks", "features": 
+            [
+              "huks_use_lite_storage = true",
+              "huks_use_hardware_root_key = true",
+              "huks_config_file = \"hks_config_lite.h\""
+            ]
+          }
+        ]
+      },
+      {
+        "subsystem": "developtools",
+        "components": [
+          { "component": "syscap_codec", "features":[] }
+        ]
+      }
+    ],
+    "third_party_dir": "",
+    "vendor_adapter_dir": "//device/soc/ingchips/sdk",
+    "product_adapter_dir": "//vendor/ingchips/ing9187xx_xts/hals"
+
+}
