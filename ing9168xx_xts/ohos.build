@@ -1,0 +1,11 @@
+{
+  "parts": {
+    "product_ing9168xx_xts": {
+      "module_list": [
+        "//vendor/ingchips/ing9168xx_xts:ing9168xx_xts"
+      ]
+    }
+  },
+  "subsystem": "product_ing9168xx_xts"
+}
+

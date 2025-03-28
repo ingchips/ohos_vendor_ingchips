@@ -1,0 +1,59 @@
+{
+    "product_name": "ing9168xx_xts",
+    "type": "mini",
+    "version": "3.0",         
+    "ohos_version": "OpenHarmony 3.1",
+    "device_build_path": "device/board/ingchips/ing916",       
+    "device_company": "ingchips",
+    "board": "ing916",
+    "kernel_type": "liteos_m",
+    "kernel_version": "3.0.0",
+    "subsystems": [
+      {
+        "subsystem": "kernel",
+        "components": [
+          { "component": "liteos_m" }
+        ]
+      },
+      {
+        "subsystem": "systemabilitymgr",
+        "components": [
+          { "component": "samgr_lite" }
+        ]
+      },
+      {
+        "subsystem": "startup",
+        "components": [
+          { "component": "bootstrap_lite", "features":[] },
+          {
+            "component": "init"
+          }
+        ]
+      },
+      {
+        "subsystem": "hiviewdfx",
+        "components": [
+          { "component": "hilog_lite", "features":[] },
+          { "component": "hievent_lite", "features":[] }
+        ]
+      },
+      {
+        "subsystem": "updater",
+        "components": [
+          { "component": "sys_installer_lite", "features":[] }
+        ]
+      },
+      {
+        "subsystem": "xts",
+        "components": [
+          { "component": "acts", "features":[] },
+          { "component": "tools", "features":[] }
+         ]
+      }
+    ],
+    
+    "third_party_dir": "",
+    "vendor_adapter_dir": "//device/soc/ingchips/sdk",
+    "product_adapter_dir": "//vendor/ingchips/ing9168xx_xts/hals"
+
+}

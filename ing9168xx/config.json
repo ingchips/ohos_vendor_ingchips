@@ -7,7 +7,7 @@
     "device_company": "ingchips",
     "board": "ing916",
     "kernel_type": "liteos_m",
-    "kernel_version": "",
+    "kernel_version": "3.0.0",
     "subsystems": [
         {
             "subsystem": "kernel",
