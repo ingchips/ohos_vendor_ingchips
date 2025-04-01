@@ -16,6 +16,12 @@
         ]
       },
       {
+        "subsystem": "iothardware",
+        "components": [
+          { "component": "peripheral", "features":[] }
+        ]
+      },
+      {
         "subsystem": "systemabilitymgr",
         "components": [
           { "component": "samgr_lite" }
@@ -26,10 +32,19 @@
         "components": [
           { "component": "bootstrap_lite", "features":[] },
           {
-            "component": "init"
+            "component": "init",
+            "features": [
+              "init_feature_begetctl_liteos = true"
+            ]
           }
         ]
       },
+      {
+        "subsystem": "commonlibrary",
+        "components": [
+          { "component": "utils_lite", "features":[ "utils_lite_feature_file = true" ] }
+        ]
+      },    
       {
         "subsystem": "hiviewdfx",
         "components": [
@@ -49,6 +64,24 @@
           { "component": "acts", "features":[] },
           { "component": "tools", "features":[] }
          ]
+      },
+      {
+        "subsystem": "security",
+        "components": [
+          { "component": "huks", "features": 
+            [
+              "huks_use_lite_storage = true",
+              "huks_use_hardware_root_key = true",
+              "huks_config_file = \"hks_config_lite.h\""
+            ]
+          }
+        ]
+      },
+      {
+        "subsystem": "developtools",
+        "components": [
+          { "component": "syscap_codec", "features":[] }
+        ]
       }
     ],
     
