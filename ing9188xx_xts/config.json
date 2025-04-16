@@ -39,9 +39,9 @@
         "components": [
           { "component": "bootstrap_lite", "features":[] },
           {
-            "component": "init",
+            "component": "init_lite",
             "features": [
-              "init_feature_begetctl_liteos = true"
+              "enable_ohos_startup_init_feature_begetctl_liteos = true"
             ]
           }
         ]
