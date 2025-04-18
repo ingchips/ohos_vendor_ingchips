@@ -11,30 +11,30 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-const.build.characteristics=DB682AC1A Kit
+const.product.devicetype=Chip
+
+const.build.characteristics=DB880CC1A
 
 const.product.manufacturer=Ingchips
 
 const.product.brand=Ingchips
 
-const.product.name=DB682AC1A Kit
+const.product.name=Ingchips PowerHarmony+ DB880CC1A
 
-const.build.product=ingchips ohos
+const.build.product=INGHRY
 
-const.product.model=ingchips ohos
+const.product.model=INGHRY-DB880CC1A
 
-const.software.model=ingchips ohos
+const.software.model=INGHRY-DB880CC1A
 
-const.product.hardwareversion=DB682AC1A V1.0
+const.product.hardwareversion=V1.0
 
 const.product.hardwareprofile=BLE:true
 
-const.ohos.serial=1234567890
-
 const.product.bootloader.version=bootloader
 
-const.product.cpu.abilist=****
+const.product.cpu.abilist=default
 
-const.product.software.version=ingchips_sdk_1.0.2
+const.product.software.version=INGSDK-8.4.20
 
 const.product.firstapiversion=1
