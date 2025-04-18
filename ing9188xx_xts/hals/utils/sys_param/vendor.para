@@ -13,19 +13,19 @@
 
 const.product.devicetype=Chip
 
-const.build.characteristics=DB880CC1A
+const.build.characteristics=ING91880C
 
-const.product.manufacturer=Ingchips
+const.product.manufacturer=INGCHIPS
 
-const.product.brand=Ingchips
+const.product.brand=INGCHIPS
 
-const.product.name=Ingchips PowerHarmony+ DB880CC1A
+const.product.name=ING91880C
 
 const.build.product=INGHRY
 
-const.product.model=INGHRY-DB880CC1A
+const.product.model=INGHRY-ING91880C
 
-const.software.model=INGHRY-DB880CC1A
+const.software.model=INGHRY-ING91880C
 
 const.product.hardwareversion=V1.0
 
