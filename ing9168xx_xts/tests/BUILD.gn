@@ -1,4 +1,4 @@
-# Copyright (c) 2021 GOODIX.
+# Copyright (c) 2025 INGCHIPS.
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -19,9 +19,9 @@ group("drivers") {
   deps = [ "drivers:drivers_test" ]
 }
 
-# group("fs_test") {
-#   deps = [ "fs:fs_test" ]
-# }
+group("fs_test") {
+  deps = [ "fs:fs_test" ]
+}
 
 group("shell_test") {
   deps = [ "shell:shell_test" ]
